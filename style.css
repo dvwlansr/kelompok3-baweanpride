@@ -1,0 +1,189 @@
+
+/* Ini Universal Selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }  
+
+  /* Selector Elemen */
+  body {
+    margin: 100px;
+    padding: 0px;
+    font-family: Arial;
+    background-color: #0C0C0C;
+  }
+
+  /* Selector Class */
+  .wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+  }
+  /* Selector Class */
+  .logo a {
+    font-size: 15px;
+    font-weight: bold; 
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF9E9E;
+  }
+  /* Selector Class */
+  .menu {
+    float: right;
+  }
+
+  /* Selector Elemen */
+  nav {
+    width: 100%;
+    display: flex;
+    line-height: 20px;
+    position: fixed;
+    top: 0;
+    font-size: 12px;
+    background: #0C0C0C;
+    z-index: 1;
+    border-bottom: 1px solid #FF9E9E;
+  }
+  /* Selector Elemen */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #FF6464;
+    width: 100%;
+    line-height: 1.0;
+    padding-top: 12px;
+  }
+
+/* Selector Class */
+.tbl-pink {
+    background: #FF9E9E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+  }
+
+  .tbl-pink:hover {
+    background: #FF6464;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 7px 0px;
+    padding: 7px 0px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: justify;
+  }
+
+  .tengah {
+    text-align: left;
+    width: 100%;
+  }
+/* --------------------------------------------------------------------------------------------------------- */
+  /* Selector Class */
+  .pengalaman {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Selector Class */
+  .software-saya {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .software-saya img {
+    width: 80%;
+    border-radius: 50%;
+  }
+
+  .software-saya {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #FF9E9E;
+  }
+
+  /* Element slector */
+  h1, h3, h4, h5 { /* Menargetkan semua level heading secara efisien */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #FF9E9E;
+  }
+
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+    color: #FF6464;
+  }
+/* ------------------------------------------------------------------------------------------------------ */
+  .bio-data {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400; /* Mengatur font weight menjadi normal */
+    text-align: left;
+    color: #FF9E9E;
+  }
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 20px auto; /* Menambahkan margin atas dan bawah */
+    padding: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dua kolom dengan ukuran sama */
+    gap: 20px; /* Jarak antar kolom */
+  }
